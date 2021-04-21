@@ -13,7 +13,7 @@ public class QueryController {
 
     @RequestMapping("/")
     public String index() {
-        return "queries/query_form";
+        return "welcome";
     }
 
     @GetMapping("/query")
