@@ -18,14 +18,14 @@ public class QueryController {
 
     @GetMapping("/query")
     public String getQueryForm(Model model) {
-        model.addAttribute("query", new QueryReport());
+        model.addAttribute("queryForm", new QueryReport());
 
         return "queries/query_form";
     }
 
     @PostMapping("/query")
     public String postQuery(QueryReport queryReport, Model model) {
-        model.addAttribute("query", new QueryReport());
+        model.addAttribute("queryForm", new QueryReport());
         model.addAttribute("submitted", true);
 
         return "queries/query_form";

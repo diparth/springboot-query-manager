@@ -43,37 +43,20 @@ body{
 }
 .container form input[type="submit"]{
     max-width: 250px;
-    margin: auto;
+    margin: 20px auto;
     display: block;
     width: 55%;
     padding: 10px;
     background: darkorange;
     border: 1px solid #b8b8b8;
     border-radius: 4px;
-    margin-top: 20px;
     cursor: pointer;
 }
-.issue_list table{
-    text-align: left;
-    border-collapse: collapse;
-    border: 1px #b8b8b8 solid;
-    margin: auto;
+
+.result_message {
+    margin-bottom: 20px;
 }
-.issue_list .desc{
-    min-width: 500px;
-}
-.issue_list td, .issue_list th{
-    border-bottom: 1px #b8b8b8 solid;
-    border-top: 1px #b8b8b8 solid;
-    padding: 5px;
-}
-.issue_list tr{
-    height: 35px;
-    transition: background .25s;
-}
-.issue_list tr:hover{
-    background: #eee;
-}
-.issue_list .status.done:after{
-    content: '✓';
+
+.links p {
+margin-bottom: 8px;
 }
