@@ -1,24 +1,34 @@
-.issue_list table{
+.query-list table{
     text-align: left;
     border-collapse: collapse;
     border: 1px #b8b8b8 solid;
     margin: auto;
 }
-.issue_list .desc{
-    min-width: 500px;
+.query-list h2.display-3 {
+    position: relative;
 }
-.issue_list td, .issue_list th{
+.home-link {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.query-list .title,
+.query-list .desc {
+    min-width: 250px;
+}
+.query-list td,
+.query-list th{
     border-bottom: 1px #b8b8b8 solid;
     border-top: 1px #b8b8b8 solid;
     padding: 5px;
 }
-.issue_list tr{
+.query-list tr{
     height: 35px;
     transition: background .25s;
 }
-.issue_list tr:hover{
+.query-list tr:hover{
     background: #eee;
 }
-.issue_list .status.done:after{
+.query-list .status.done:after{
     content: '✓';
 }
