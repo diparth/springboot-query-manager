@@ -14,7 +14,7 @@
 	<name>springboot-app</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>12</java.version>
 	</properties>
 	<dependencies>
 		<!-- <dependency>
@@ -59,8 +59,8 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
-			<version>2.3.4.RELEASE</version>
-		</dependency> 
+			<version>2.4.1</version>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
 		<dependency>
 			<groupId>com.h2database</groupId>
